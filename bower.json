@@ -1,7 +1,7 @@
 {
   "name": "leaflet-draw-mod-touch",
   "description": "Vector drawing plugin for Leaflet with Touch",
-  "version": "0.2.3",
+  "version": "0.2.4-pre",
   "main": [
     "dist/leaflet.draw-src.js",
     "dist/leaflet.draw.css",
@@ -41,7 +41,7 @@
     "url": "https://github.com/samirfor/Leaflet.draw.git"
   },
   "dependencies": {
-    "leafle": "^0.7.x"
+    "leaflet": "^0.7.x"
   },
   "devDependencies": {
     "leaflet": "~0.7.0",
