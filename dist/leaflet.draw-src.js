@@ -19,59 +19,59 @@ L.drawLocal = {
 			// ex: actions.undo  or actions.cancel
 			actions: {
 				title: 'Cancel drawing',
-				text: 'Cancel'
+				text: 'Cancelar'
 			},
 			finish: {
 				title: 'Finish drawing',
-				text: 'Finish'
+				text: 'Terminar desenho'
 			},
 			undo: {
 				title: 'Delete last point drawn',
-				text: 'Delete last point'
+				text: 'Deletar último ponto'
 			},
 			buttons: {
-				polyline: 'Draw a polyline',
-				polygon: 'Draw a polygon',
-				rectangle: 'Draw a rectangle',
-				circle: 'Draw a circle',
-				marker: 'Draw a marker'
+				polyline: 'Desenhar um caminho',
+				polygon: 'Desenhar um polígono',
+				rectangle: 'Desenhar um retângulo',
+				circle: 'Desenhar um círculo',
+				marker: 'Desenhar um ponto'
 			}
 		},
 		handlers: {
 			circle: {
 				tooltip: {
-					start: 'Click and drag to draw circle.'
+					start: 'Clique e arraste para desenhar um círculo.'
 				},
-				radius: 'Radius'
+				radius: 'Raio'
 			},
 			marker: {
 				tooltip: {
-					start: 'Click map to place marker.'
+					start: 'Clique no mapa para colocar o ponto.'
 				}
 			},
 			polygon: {
 				tooltip: {
-					start: 'Click to start drawing shape.',
-					cont: 'Click to continue drawing shape.',
-					end: 'Click first point to close this shape.'
+					start: 'Clique para iniciar o polígono.',
+					cont: 'Clique para continuar o polígono.',
+					end: 'Clique no primeiro ponto para terminar o polígono.'
 				}
 			},
 			polyline: {
-				error: '<strong>Error:</strong> shape edges cannot cross!',
+				error: '<strong>Erro:</strong> os vértices não podem se cruzar!',
 				tooltip: {
-					start: 'Click to start drawing line.',
-					cont: 'Click to continue drawing line.',
-					end: 'Click last point to finish line.'
+					start: 'Clique para iniciar uma linha.',
+					cont: 'Clique para continuar a linha.',
+					end: 'Clique no último ponto para terminar a linha.'
 				}
 			},
 			rectangle: {
 				tooltip: {
-					start: 'Click and drag to draw rectangle.'
+					start: 'Clique e arraste para desenhar um retângulo.'
 				}
 			},
 			simpleshape: {
 				tooltip: {
-					end: 'Release mouse to finish drawing.'
+					end: 'Solte para terminar o desenho.'
 				}
 			}
 		}
@@ -81,30 +81,30 @@ L.drawLocal = {
 			actions: {
 				save: {
 					title: 'Save changes.',
-					text: 'Save'
+					text: 'Salvar'
 				},
 				cancel: {
 					title: 'Cancel editing, discards all changes.',
-					text: 'Cancel'
+					text: 'Cancelar'
 				}
 			},
 			buttons: {
-				edit: 'Edit layers.',
-				editDisabled: 'No layers to edit.',
-				remove: 'Delete layers.',
-				removeDisabled: 'No layers to delete.',
+				edit: 'Editar camadas.',
+				editDisabled: 'Sem camadas para editar.',
+				remove: 'Deletar camadas.',
+				removeDisabled: 'Sem camadas para deletar.'
 			}
 		},
 		handlers: {
 			edit: {
 				tooltip: {
-					text: 'Drag handles, or marker to edit feature.',
-					subtext: 'Click cancel to undo changes.'
+					text: 'Arraste para editar.',
+					subtext: 'Clique em cancelar para desfazer as alterações.'
 				}
 			},
 			remove: {
 				tooltip: {
-					text: 'Click on a feature to remove'
+					text: 'Clique em um ítem para remover'
 				}
 			}
 		}
