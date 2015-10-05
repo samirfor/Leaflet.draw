@@ -41,7 +41,7 @@
     "url": "https://github.com/samirfor/Leaflet.draw.git"
   },
   "dependencies": {
-    "leaflet-dist": "0.7.x"
+    "leafle": "^0.7.x"
   },
   "devDependencies": {
     "leaflet": "~0.7.0",
